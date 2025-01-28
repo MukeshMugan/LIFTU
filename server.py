@@ -10,7 +10,7 @@ import textract
 from tenacity import retry, stop_after_attempt, wait_exponential
 
 from config import Config
-print("hello")
+
 # Configure logging
 logging.basicConfig(
     level=logging.INFO, 
